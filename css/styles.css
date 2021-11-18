@@ -61,6 +61,8 @@ a{
   line-height: 2;
 }
 
+
+
 .bottom-container{
   background-color: #66BFBF;
   margin-top: 100px;
@@ -81,11 +83,21 @@ a{
   text-decoration: underline;
 }
 
-.skill-row{
+.webd-img{
   width: 50%;
-  margin: 100px auto 100px;
-  line-height: 2;
-  text-align: centre;
+  border-radius: 25%;
+  text-align: center;
+}
+
+.dsa-img{
+  width: 50%;
+  border-radius: 25%;
+}
+
+.skill-row{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .img_profile{
@@ -140,7 +152,7 @@ hr{
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 1028px) {
   .webd-img{
     width: 25%;
     float: left;
@@ -155,6 +167,9 @@ hr{
     border-radius: 25%;
   }
   .skill-row{
+    width: 50%;
     text-align: left;
+    margin: 100px auto 100px;
+    line-height: 2;
   }
 }
