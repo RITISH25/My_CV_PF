@@ -6,6 +6,8 @@ body {
   color: #40514E;
 }
 
+/* Selectors */
+
 h1 {
   font-size: 5rem;
   font-family: 'Sacramento', cursive;
@@ -31,6 +33,8 @@ a{
   text-decoration: none;
 }
 
+/* Classes */
+
 .subheading{
   font-weight: normal;
 }
@@ -39,6 +43,17 @@ a{
   background-color: #eaf6f6;
   padding-top: 30px;
   margin-left: 0px;
+}
+
+.top-cloud {
+  position: absolute;
+  right:  300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  margin: auto;
+  left: 250px;
 }
 
 .middle-container{
@@ -54,10 +69,6 @@ a{
 .footer-link{
   padding-top: 50px;
   padding-bottom: 10px;
-}
-
-.footer-link{
-
   word-spacing: 30px;
 }
 
@@ -70,36 +81,11 @@ a{
   text-decoration: underline;
 }
 
-.top-cloud {
-  position: absolute;
-  right:  300px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  margin: auto;
-  left: 250px;
-}
-
 .skill-row{
   width: 50%;
   margin: 100px auto 100px;
   line-height: 2;
-  text-align: left;
-}
-
-.webd-img{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 25%;
-}
-
-.dsa-img{
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-  border-radius: 25%;
+  text-align: centre;
 }
 
 .img_profile{
@@ -151,4 +137,24 @@ hr{
   border-width: thick;
   height: 0;
   margin: 100px auto 100px;
+}
+
+
+@media (min-width: 900px) {
+  .webd-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 25%;
+  }
+
+  .dsa-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 25%;
+  }
+  .skill-row{
+    text-align: left;
+  }
 }
