@@ -83,6 +83,10 @@ a{
   text-decoration: underline;
 }
 
+.img_profile{
+  border-radius: 100px;
+}
+
 .webd-img{
   width: 50%;
   border-radius: 25%;
@@ -95,14 +99,8 @@ a{
 }
 
 .skill-row{
-  width: 100%;
-  margin: auto;
   text-align: center;
   font-size: 2em;
-}
-
-.img_profile{
-  border-radius: 100px;
 }
 
 .btn {
