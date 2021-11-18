@@ -95,9 +95,10 @@ a{
 }
 
 .skill-row{
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
+  font-size: 2em;
 }
 
 .img_profile{
@@ -171,5 +172,6 @@ hr{
     text-align: left;
     margin: 100px auto 100px;
     line-height: 2;
+    font-size: 1rem;
   }
 }
